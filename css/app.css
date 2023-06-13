@@ -1,0 +1,42 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sw__message {
+    width: 300px;
+    padding: 10px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+    z-index: 9999
+}
+
+#sw__message span {
+    font-size: 12px
+}
+
+#sw__message .button--link,#sw__message button {
+    padding: 5px 8px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+#sw__message .button--link span,#sw__message button span {
+    font-size: 9px;
+    position: relative
+}
